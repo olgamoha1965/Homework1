@@ -69,7 +69,7 @@ else
 
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
-Console.WriteLine("Введите число N: ");
+/*Console.WriteLine("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 2;
 
@@ -78,7 +78,8 @@ while(current <= num)
     Console.Write(current + " ");
     current = current + 2;
 }
-if(num <= 0)
+if(num <= 1)
 {
-    Console.WriteLine($"Введенное число {num} является отрицательным или равно 0.");
+    Console.WriteLine($"Введенное число {num} не имеет четных чисел.");
 }
+*/
